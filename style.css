@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #000;
+}
+
+.inp_id {
+  width: 300px;
+  height: 30px;
+  border-radius: 10px;
+  border: 3px solid aqua;
+  margin: 30px 0;
+  background: #000;
+  color: white;
+  font-size: 20px;
+}
+
+.inp_name {
+  border-radius: 10px;
+  border: 3px solid aqua;
+  width: 300px;
+  height: 30px;
+  background: #000;
+  color: white;
+  font-size: 20px;
+}
+
+.btn_add {
+  border-radius: 10px;
+  width: 100px;
+  height: 30px;
+  border: 3px solid aqua;
+  background: white;
+  color: aqua;
+  background: #000;
+  color: white;
+  font-size: 20px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+}
+
+.wrapper > div {
+  width: 100px;
+  height: 100px;
+  background: grey;
+  font-size: 20px;
+  padding: 20px 0;
+  color: white;
+  gap: 30px;
+}
